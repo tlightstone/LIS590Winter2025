@@ -1,0 +1,97 @@
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.serif{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.red-color
+{
+    color: rgb(229, 60, 60);
+}
+
+.purple-color
+{
+    color: rgb(132, 102, 250);
+}
+
+
+.black-outline{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.light-black-outline{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.white-outline{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.display-large {
+    font-size: 7vw; /* Responsive font size based on viewport width */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.red-bk-white-text{
+    color:white;
+    background-color: rgb(229, 60, 60);
+}
+
+.instagram-logo {
+    height: auto;
+    width: 2rem; /* Set a base size */
+    max-width: 50px; /* Set a maximum size */
+    margin-left: 10px; /* Space between text and logo */
+}
+
+
+.card-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.5rem;
+}
+
+.bg-red{
+    background-color: rgb(229, 60, 60) ;
+}
+
+.bg-lpurp{
+    background-color: rgb(157, 135, 246) ;
+
+}
+
+.bg-grey {
+    background-color: #D0D3D4 ;
+}
+
+.bg-darkgrey{
+    background-color: #adadad;
+}
+
+.social-icons i {
+    font-size: 2rem;
+    margin: 0 15px;
+}
+
+.custom-border {
+    border-style: solid; 
+    border-width: var(--border-width, 3px); 
+    border-color: var(--border-color, rgb(229, 60, 60)); 
+    border-radius: var(--border-radius, 10px); 
+}
+
