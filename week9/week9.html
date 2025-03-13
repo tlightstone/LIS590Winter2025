@@ -65,17 +65,25 @@
 				<div class="row mt-3 ">
 
                     <p>
-                       
-</p>
- <p>
+                       This week was tough for several reasons. First, I was hit with really bad food poisoning this week which caused me to miss part of work. While still recovering, I managed to get to work. We had had a previous problem with a box of DVDs the previous week where they were unable to be read by the computer because they didn’t have a file type. Fortunately, IT had worked on this problem and figured out a solution that involved copying the files from the disc to my local drive and then manually changing the file extension to that of a jpg. When doing that it fixed the issue and the computer was able to open the files as photos and we could continue as usual with adding the metadata to the spreadsheet and checking for duplicates.
 
-
-</p>
- <p>
-
-</p>
- <p>
  
+
+
+</p>
+ <p>
+During this process, since there were so many photos, it is very time consuming to change the filenames one by one, so IT also helped with teaching how to use the command line to manually append a .jpg to the end of each file name. However, there was another issue where a lot of the file names had a ‘.’ In the name already, which was confusing the computer to thinking that the characters after the ‘.’ Were the file type. So, on my own, I figured out some linux, terminal commands that looped through the file extensions and changed any ‘.’ To ‘-‘ and then appended the ‘.jpg’ afterward.
+
+
+
+</p>
+ <p>
+The command for that was : Get-ChildItem *.* | Rename-Item -NewName {$_.Name -replace '\.', '-'}
+
+
+</p>
+ <p>
+ And the command for appending  was : ren *. *.jpg
 </p>
  <p>
 
